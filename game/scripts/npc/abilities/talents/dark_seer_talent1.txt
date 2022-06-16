@@ -1,0 +1,26 @@
+"DOTAAbilities"
+{
+  //=================================================================================================================
+  // Bonus Ion Shell Damage
+  //=================================================================================================================
+  "special_bonus_unique_dark_seer"
+  {
+    // General
+    //-------------------------------------------------------------------------------------------------------------
+    "ID"					"6047"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+    "AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+    "AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+    // Special
+    //-------------------------------------------------------------------------------------------------------------
+    "AbilitySpecial"
+    {
+      "01"
+      {
+        "var_type"					"FIELD_INTEGER"
+        "value"				"90" //OAA
+        "ad_linked_abilities"			"dark_seer_ion_shell"
+      }
+    }
+  }
+}

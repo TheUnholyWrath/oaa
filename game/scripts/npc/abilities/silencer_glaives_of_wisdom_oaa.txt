@@ -41,7 +41,7 @@
       "01"
       {
         "var_type"                                        "FIELD_FLOAT"
-        "intellect_damage_pct"                            "20 40 60 80 100 120"
+        "intellect_damage_pct"                            "10 30 50 70 90 110"
         "LinkedSpecialBonus"                              "special_bonus_unique_silencer_3"
       }
       "02" // passive INT steal
