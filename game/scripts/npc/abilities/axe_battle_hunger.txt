@@ -41,6 +41,7 @@
     //-------------------------------------------------------------------------------------------------------------
     "AbilityModifierSupportValue"                         "0.1"  // Primarily about the damage
 
+
     // Special
     //-------------------------------------------------------------------------------------------------------------
     "AbilityValues"
@@ -59,8 +60,7 @@
       }
       "scepter_armor_change"
       {
-        "value"                                           "+7"
-        "RequiresScepter"                                 "1"
+        "special_bonus_scepter"                           "+7"
       }
     }
   }
