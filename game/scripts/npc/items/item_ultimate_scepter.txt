@@ -34,7 +34,7 @@
     "ID"                                                  "108"
     "AbilityTextureName"                                  "custom/ultimate_scepter"
 
-    "AbilityCastRange"                                    "9999" //OAA
+    "AbilityCastRange"                                    "600" // for Alchemist when he gives to others
 
     "MaxUpgradeLevel"                                     "5"
     "ItemBaseLevel"                                       "1"
