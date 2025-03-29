@@ -74,7 +74,7 @@ function Bottlepass:SendWinner (winner)
     end
   end
 
-  self:Request('match/complete', {
+  local req = self:Request('match/complete', {
     winner = winner,
     endTime = endTime,
     gameLength = gameLength,
@@ -121,7 +121,7 @@ function Bottlepass:SendWinner (winner)
 ]]
   end)
 
-  if IsInToolsMode() then
+  if not req then
     Bottlepass:SendEndGameStats()
   end
 end
@@ -280,6 +280,15 @@ function Bottlepass:Request(api, data, cb)
     --cb("No bottlepass in 10v10", {})
     --return
   --end
+  if OAAOptions then
+    if OAAOptions.settings then
+      local s = OAAOptions.settings
+      if s.HEROES_MODS ~= "HMN" or s.HEROES_MODS_2 ~= "HMN" or s.HEROES_MODS_BUNDLE ~= "HMBN" or s.BOSSES_MODS ~= "BMN" then
+        cb("No bottlepass when modifiers are ON", {})
+        return
+      end
+    end
+  end
   if GameRules:IsCheatMode() and not IsInToolsMode() then
     cb("No Bottlepass while in cheats mode", {})
     return
