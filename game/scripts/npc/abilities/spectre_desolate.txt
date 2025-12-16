@@ -32,7 +32,7 @@
       }
       "radius"
       {
-        "value"                                           "400"
+        "value"                                           "350"
       }
       "only_creep_allies_damage_pct"
       {
@@ -42,6 +42,10 @@
       {
         "value"                                           "1"
         "special_bonus_facet_spectre_forsaken"            "=0"
+      }
+      "illusion_damage_outgoing"
+      {
+        "special_bonus_unique_spectre_4"                  "+25"
       }
     }
   }

@@ -47,7 +47,7 @@
 
     // Item Info
     //-------------------------------------------------------------------------------------------------------------
-    "ItemCost"                                            "17503"
+    "ItemCost"                                            "17500"
     "ItemShopTags"                                        "regen_health;regen_mana;str;agi;int;hard_to_tag"
     "ItemQuality"                                         "epic"
     "ItemAliases"                                         "ls 4;linken's sphere 4;linkens 4"
@@ -65,7 +65,7 @@
     "AbilityValues"
     {
       "bonus_all_stats"                                   "16 21 26 31 36"
-      "bonus_health_regen"                                "6 9 12 15 18"
+      "bonus_health_regen"                                "6.5 9.5 12.5 15.5 18.5"
       "bonus_mana_regen"                                  "4.25 4.5 5 5.75 6.75"
       "block_cooldown"                                    "14.0 13.0 12.0 11.0 10.0"
       "upgrade_absorb_duration"                           "10.0"

@@ -12,7 +12,7 @@
 
     // Item Info
     //-------------------------------------------------------------------------------------------------------------
-    "ItemCost"                                            "600" //OAA
+    "ItemCost"                                            "700" //OAA
     "ItemShopTags"                                        ""
 
     // Recipe
@@ -34,12 +34,12 @@
     //-------------------------------------------------------------------------------------------------------------
     "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "AbilityUnitDamageType"                               "DAMAGE_TYPE_MAGICAL" //OAA, Valve forgot
-    "SpellDispellableType"                                "SPELL_DISPELLABLE_YES" //OAA, Valve forgot
+    "SpellDispellableType"                                "SPELL_DISPELLABLE_NO" //OAA, Valve forgot
     "AbilityTextureName"                                  "custom/khanda_1"
 
     // Stats
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityCooldown"                                     "10.0 9.5 9.0 8.5 8.0"
+    "AbilityCooldown"                                     "9.0"
     "AbilitySharedCooldown"                               "phylactery"
     "AbilityManaCost"                                     "0" //OAA
 

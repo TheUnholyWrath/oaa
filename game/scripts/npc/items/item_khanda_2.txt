@@ -37,12 +37,12 @@
     "BaseClass"                                           "item_angels_demise"
     "AbilityBehavior"                                     "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     "AbilityUnitDamageType"                               "DAMAGE_TYPE_MAGICAL"
-    "SpellDispellableType"                                "SPELL_DISPELLABLE_YES"
+    "SpellDispellableType"                                "SPELL_DISPELLABLE_NO"
     "AbilityTextureName"                                  "custom/khanda_2"
 
     // Stats
     //-------------------------------------------------------------------------------------------------------------
-    "AbilityCooldown"                                     "10.0 9.5 9.0 8.5 8.0"
+    "AbilityCooldown"                                     "9.0"
     "AbilitySharedCooldown"                               "phylactery"
     "AbilityManaCost"                                     "0"
 
@@ -52,7 +52,7 @@
 
     // Item Info
     //-------------------------------------------------------------------------------------------------------------
-    "ItemCost"                                            "6501"
+    "ItemCost"                                            "6500"
     "ItemShopTags"                                        "hard_to_tag"
     "ItemQuality"                                         "common"
     "ItemAliases"                                         "khanda; kanda"
